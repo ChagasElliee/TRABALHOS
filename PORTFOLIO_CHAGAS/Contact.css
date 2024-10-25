@@ -37,6 +37,9 @@ main{
     flex: 1;
     margin-right: 50px;
 }
+span{
+    font-weight: bold;
+}
 .contact-info h2 {
     font-size: 24px;
     margin-bottom: 20px;
