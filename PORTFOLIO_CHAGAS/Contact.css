@@ -37,17 +37,22 @@ main{
     flex: 1;
     margin-right: 50px;
 }
+ 
 span{
     font-weight: bold;
 }
 .contact-info h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .contact-info p {
     margin: 0;
     font-size: 18px;
     margin-bottom: 10px;
+}
+.contact-info h4 {
+    margin-bottom: 30px;
+    font-weight: 400;
 }
 .contact-form {
     flex: 2;
