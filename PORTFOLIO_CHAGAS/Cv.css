@@ -41,6 +41,10 @@ nav a:last-child{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+p{
+    max-width: 900px;
+    text-align: justify;
+}
 
 
 .exp-li{
