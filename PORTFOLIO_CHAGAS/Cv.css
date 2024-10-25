@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right: 15px;
+
+}
+nav a:last-child{
+    border: none;
+}
+.cv-section{
+    margin: 30px 100px;
+}
+.cv-section h2{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.cv-section h3{
+    margin: 50px 0px;
+}
+
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.exp-li{
+    max-width: 800px;
+    margin-top: 20px;
+    
+}
+ul{
+    margin-bottom: 50px;
+}
+ul li{
+    font-size: 16px;
+    margin: 5px;
+    margin-left: 20px;
+} 
+.competences{
+    
+}
+.competences h4{
+    padding: 50px 0px;
+    border-top: 1px solid rgb(208, 203, 203);
+}
+
+
+.footer{
+    padding: 15px;
+    border-top: 1px solid rgb(208, 203, 203);
+    display: flex;
+    text-decoration: none;  
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px;
+    width: auto;
+    margin-top: 60px;
+}
+.footer span{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.social a img{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.langues h3{
+    padding-top: 50px;
+    border-top: 1px solid rgb(208, 203, 203);
+}
+.langues ul li span{
+    font-weight: bold;
+}

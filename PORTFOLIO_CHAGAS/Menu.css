@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right: 15px;
+
+}
+nav a:last-child{
+    border: none;
+}
+main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+main img{
+    margin-left: 60px;
+    width: 284px;
+    height: 284px;
+    border-radius: 242px;
+    border: 1px solid rgb(64, 64, 63);
+
+}
+main span{
+    font-weight: bold;
+    font-size: 18px;
+}
+article{
+    width: 50%;
+    margin: 50px 0px 80px 0px;
+    margin-right: 200px;
+}
+article h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+    
+}
+article h2{
+    margin-bottom: 10px;
+}
+.bnt{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    
+    
+}
+.bnt{
+    display: flex;
+
+}
+.bnt p{
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+
+.bnt .bnt-yellow{
+    text-decoration: none;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: none;  
+    
+}
+.bnt .bnt-red{
+    text-decoration: none;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.bnt .bnt-blue{
+    text-decoration: none;
+    background-color: rgb(178, 178, 234);
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    }
+    .footer{
+        padding: 15px;
+        border-top: 1px solid rgb(208, 203, 203);
+        display: flex;
+        text-decoration: none;  
+        justify-content: space-between;
+        margin: 0px 150px 0px 150px;
+        width: auto;
+        margin-top: 60px;
+    }
+    .footer span{
+        font-weight: bold;
+        font-size: 16px;
+
+    }
+    .social a img{
+        width: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
